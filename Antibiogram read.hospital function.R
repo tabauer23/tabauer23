@@ -35,7 +35,7 @@
 read.hospital <- function(hospital_name, excel_name, year){
   
   # MODIFICATION - update this path to the current year  
-  fullpath <- str_c("R:/OCPH/EPI/BCDC-BCDS/Group/HAI Program/Antimicrobial Resistance/1. Antibiogram/", year," Antibiogram/", year," Hospital Antibiogram Data/", excel_name)     
+  fullpath <- str_c()     
   
   # We want to read in gram positive and gram negative organisms as separate tables,
   # since each has different column names (antibiotics).
