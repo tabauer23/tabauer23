@@ -1,5 +1,5 @@
 - Hi, I’m Trevor.
-- I’m interested in expanding my coding data mindset, and actively getting other people interested in coding to make life more simple.
+- I’m interested in expanding my coding data mindset and actively get other people interested in coding to make life more simple.
 - I have been coding R now for about two years, and really pushing to expand my network with other fellow coders to bounce ideas off of to ensure 
 processes are going efficiently as possible.
 - I’m currently learning R coding to better integrate repeatable reports at my organization.
