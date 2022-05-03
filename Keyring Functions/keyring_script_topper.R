@@ -8,7 +8,7 @@ kb$keyring_unlock(keyring = paste0(Sys.info()[["nodename"]]), password = tolower
 
 con <- dbConnect(odbc::odbc(), dsn = service, 
                  uid = tolower(Sys.info()[["user"]]), 
-                 pwd = keyring::backend_file$new()$get(service = paste0(tolower(Sys.info()[["user"]]), Sys.info()[["nodename"]], "EBIP"), 
+                 pwd = keyring::backend_file$new()$get(service = paste0(tolower(Sys.info()[["user"]]), Sys.info()[["nodename"]], service), 
                                                        user = tolower(Sys.info()[["user"]]), 
                                                        keyring = Sys.info()[["nodename"]]))
 
