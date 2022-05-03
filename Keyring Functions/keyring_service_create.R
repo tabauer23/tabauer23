@@ -7,6 +7,9 @@ kr_name <- Sys.info()[["nodename"]] #sets the keyring name as your username logi
 #creates the keyring
 kb <- keyring::backend_file$new() #creates a back end keyring environment (only needs to be done once each time for the user to initially create their key)
 
+#unlocks the keyring 
+kb$keyring_unlock(keyring = kr_name,
+                  password = tolower(Sys.info()[["user"]]))
 #set DB to whichever database you want to make a password for.
 service <- rstudioapi::showPrompt("Database service", "please enter service name")
 
@@ -27,7 +30,5 @@ kb$set_with_value(service = kr_service,
 
 #locks the keyring back up
 kb$keyring_lock(kr_name)
-#unlocks the keyring 
-kb$keyring_unlock(keyring = kr_name,
-                  password = tolower(Sys.info()[["user"]]))
+
 
