@@ -1,9 +1,8 @@
-- Hi, I’m Trevor.
-- I’m interested in expanding my coding data mindset and actively get other people interested in coding to make life more simple.
-- I have been coding R now for about two years, and really pushing to expand my network with other fellow coders to bounce ideas off of to ensure 
-processes are going efficiently as possible.
-- I’m currently learning R coding to better integrate repeatable reports at my organization.
-- I’m looking to collaborate on anything that has to do with R coding, from beginners to advanced coders. 
+- Hi, I’m Trevor
+- I’m interested in helping people discover their data
+- I am passionate about programming
+- I’m currently a System Development Specialist at the NH DHHS
+- I’m looking to collaborate on anything that has to do with coding, from beginners to advanced programming 
 - How to reach me trevor.a.bauer@dhhs.nh.gov or bauer.trevor@gmail.com
 
 <!---
